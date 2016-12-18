@@ -21,7 +21,8 @@ my $DATE = strftime('%Y-%m-%d', localtime);
 my $PUBLIC_SUPPORT_TABLES =
   'stddata_country stddata_language gcd_story_type ' .
   'gcd_issue_reprint gcd_reprint gcd_reprint_from_issue ' .
-  'gcd_reprint_to_issue gcd_brand_emblem_group gcd_brand_use';
+  'gcd_reprint_to_issue gcd_brand_emblem_group gcd_brand_use ' .
+  'gcd_series_bond gcd_series_bond_type gcd_series_publication_type';
 
 # Tables with deleted data which will be filtered out in the dump
 # using $PUBLIC_DATA_WHERE
